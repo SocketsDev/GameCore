@@ -71,20 +71,20 @@ placeholderplaceholderplaceholder
 placeholder
 </pre>
 
-GameCore downloads
+GameCore versions
 -------------
 
 (these are placeholders)
 
 <table>
   <tr>
-    <th>Version</th><th>Name</th><th>Download</th>
+    <th>Version</th><th>Name</th>
   </tr>
   <tr>
-    <td>0.1</td><td>GameCore (Pre-development)</td><td>https://github.com/SocketsDev/GameCore/archive/master.zip</td>
+    <td>0.1</td><td>GameCore (Pre-development)</td>
   </tr>
   <tr>
-    <td>0.1</td><td>GameCore (Pre-development)</td><td>https://github.com/SocketsDev/GameCore/archive/master.zip</td>
+    <td>0.1</td><td>GameCore (Pre-development)</td>
   </tr>
 </table>
 
