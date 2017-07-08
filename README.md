@@ -1,4 +1,4 @@
-GitHub Flavored Markdown
+GameCore Documentation
 ================================
 
 *Visit the [homepage](http://socketsdev.github.io/).*
@@ -56,13 +56,13 @@ GameCore downloads
 
 <table>
   <tr>
-    <th>Version</th><th>Name</th><th>Build</th>
+    <th>Version</th><th>Name</th><th>Download</th>
   </tr>
   <tr>
-    <td>0.1</td><td>GameCore (Pre-development)</td><td>0.1b</td>
+    <td>0.1</td><td>GameCore (Pre-development)</td><td>*[Build 0.1b](http://www.google.com/)*</td>
   </tr>
   <tr>
-    <td>0.1</td><td>GameCore (Pre-development)</td><td>0.1a</td>
+    <td>0.1</td><td>GameCore (Pre-development)</td><td>*[Build 0.1a](http://www.google.com/)*</td>
   </tr>
 </table>
 
