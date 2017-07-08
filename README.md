@@ -59,10 +59,10 @@ GameCore downloads
     <th>Version</th><th>Name</th><th>Download</th>
   </tr>
   <tr>
-    <td>0.1</td><td>GameCore (Pre-development)</td><td>*[Build 0.1b](http://www.google.com/)*</td>
+    <td>0.1</td><td>GameCore (Pre-development)</td><td>[a link](https://github.com/user/repo/blob/branch/other_file.md)</td>
   </tr>
   <tr>
-    <td>0.1</td><td>GameCore (Pre-development)</td><td>*[Build 0.1a](http://www.google.com/)*</td>
+    <td>0.1</td><td>GameCore (Pre-development)</td><td>try to embedd link</td>
   </tr>
 </table>
 
