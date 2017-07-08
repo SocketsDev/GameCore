@@ -7,11 +7,21 @@ import io.github.socketsdev.util.GameState.State;
 
 public class Game {
 	
-	State s;
+	State s = null;
+	String n = null;
     List<String> p = new ArrayList<String>();
+    
+    public Game(String name) {
+    	this.n = name;
+    }
 
     public List<String> getPlayers(){
         return this.p;
+    }
+    
+    //Getters / setters
+    public String getName() {
+    	return this.n;
     }
     
     public State getState() {

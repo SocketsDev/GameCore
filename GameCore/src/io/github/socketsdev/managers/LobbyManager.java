@@ -21,7 +21,7 @@ public class LobbyManager implements Listener {
 	}
 	
 	public boolean inLobby(Player p){
-        if(gamecore.getGame().getPlayers().contains(p.getName()) && gamecore.getGame().getState() == State.LOBBY)
+        if(gamecore.getGame().getPlayers().contains(p.getName()) && gamecore.getGame().getState().equals(State.LOBBY))
                 return true;
         return false;
 	}

@@ -11,6 +11,8 @@ public class GameCore extends JavaPlugin {
 
 	private static Plugin gamecore;
 	
+	Game game;
+	
 	public void onEnable() {
 		gamecore = this;
 		
@@ -31,8 +33,11 @@ public class GameCore extends JavaPlugin {
         return gamecore;
     }
     
+    public void createGame(String name) {
+    	game = new Game(name);
+    }
+    
     public Game getGame() {
-		Game game = new Game();
 		return game;
 	}
 	
