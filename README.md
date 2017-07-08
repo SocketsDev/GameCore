@@ -48,7 +48,7 @@ Example class
 ------------
 
 <pre>
-test?
+add later
 </pre>
 
 GameCore downloads
@@ -59,7 +59,7 @@ GameCore downloads
     <th>Version</th><th>Name</th><th>Download</th>
   </tr>
   <tr>
-    <td>0.1</td><td>GameCore (Pre-development)</td><td>[a link](https://github.com/user/repo/blob/branch/other_file.md)</td>
+    <td>0.1</td><td>GameCore (Pre-development)</td><td>https://github.com/SocketsDev/GameCore/archive/master.zip</td>
   </tr>
   <tr>
     <td>0.1</td><td>GameCore (Pre-development)</td><td>try to embedd link</td>
