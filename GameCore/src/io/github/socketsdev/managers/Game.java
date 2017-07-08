@@ -21,4 +21,5 @@ public class Game {
     public void setState(State s) {
     	this.s = s;
     }
+    
 }
