@@ -69,5 +69,5 @@ GameCore downloads
 End of documentation
 --------------------
 
-Well thats all of my current documentation, got any questions? Message me: [Mc-Market] [1].
-  [1]: http://www.mc-market.org/conversations/add?to=Bill        "Mc-Market"
+Well thats all of my current documentation, got any questions?
+*Message me: [mc-market](http://www.mc-market.org/conversations/add?to=Bill).*
