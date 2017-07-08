@@ -48,11 +48,33 @@ Example class
 ------------
 
 <pre>
-add later
+placeholder
+
+placeholderplaceholder
+
+placeholder
+
+placeholderplaceholderplaceholder
+
+placeholderplaceholder
+
+placeholder
+
+placeholderplaceholder
+
+placeholder
+
+placeholderplaceholderplaceholder
+
+placeholderplaceholderplaceholder
+
+placeholder
 </pre>
 
 GameCore downloads
 -------------
+
+(these are placeholders)
 
 <table>
   <tr>
@@ -62,7 +84,7 @@ GameCore downloads
     <td>0.1</td><td>GameCore (Pre-development)</td><td>https://github.com/SocketsDev/GameCore/archive/master.zip</td>
   </tr>
   <tr>
-    <td>0.1</td><td>GameCore (Pre-development)</td><td>try to embedd link</td>
+    <td>0.1</td><td>GameCore (Pre-development)</td><td>https://github.com/SocketsDev/GameCore/archive/master.zip</td>
   </tr>
 </table>
 
