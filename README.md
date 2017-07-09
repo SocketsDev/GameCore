@@ -50,31 +50,37 @@ Basically what we did now was setup our basics for creating a game, now we get t
   <dd>I currently do not supply old documentation in downloads.</dd>
 </dl>
 
-Example class
+Examples
 ------------
 
+Managing your base game
 <pre>
-placeholder
+GameCore core = new GameCore()
+//This should be on top in your main class, and made accessible everywhere needed.
 
-placeholderplaceholder
+core.createGame(String name, State state)
+//Now we are creating a class of the Game Object. With the name of your game and setting the starting GameState, which usally should be State.LOBBY, but you can go with any of the five game states.
 
-placeholder
+core.getGame()
+//Getting your game object. (Here you have a few setters/getters, such as: getPlayers, getName, getState, setState.
+</pre>
 
-placeholderplaceholderplaceholder
+Teams
+<pre>
+Team teamName = new Team(String name, ChatColor teamColor)
+//Creating a new team object with a name and a color.
 
-placeholderplaceholder
+core.getTeamManager()
+//Using this you will manage all your created teams. (Using: getTeam, addPlayer, removePlayer, removeTeam)
+</pre>
 
-placeholder
+Kits
+<pre>
+Kit kitName = new Kit(String name)
+//Creating a new kit object with a name.
 
-placeholderplaceholder
-
-placeholder
-
-placeholderplaceholderplaceholder
-
-placeholderplaceholderplaceholder
-
-placeholder
+core.getKitManager()
+//Using this you will manage all your created teams. (Using: getKit, addPlayer, removePlayer, removeKit)
 </pre>
 
 GameCore versions
