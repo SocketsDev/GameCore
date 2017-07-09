@@ -24,6 +24,8 @@ What features does GameCore have?
 
 * File Management
 
+* Countdowns
+
 * More
 
 Usage
