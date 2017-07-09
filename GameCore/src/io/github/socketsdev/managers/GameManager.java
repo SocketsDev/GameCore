@@ -6,18 +6,12 @@ import org.bukkit.event.Listener;
 import io.github.socketsdev.GameCore;
 import io.github.socketsdev.util.GameState.State;
 
-public class LobbyManager implements Listener {
+public class GameManager implements Listener {
 	
 	GameCore gamecore;
 	 
-	public LobbyManager(GameCore instance) {
+	public GameManager(GameCore instance) {
 	    gamecore = instance;
-	}
-	
-	public boolean inLobby() {
-		if(gamecore.getGame().getState().equals(State.LOBBY))
-			return true;
-		return false;
 	}
 	
 	public boolean inLobby(Player p){
@@ -26,6 +20,16 @@ public class LobbyManager implements Listener {
         return false;
 	}
 	
+	public State getState() {
+		return gamecore.getGame().getState();
+	}
 	
+	public void setState(State s) {
+		gamecore.getGame().setState(s);;
+	}
+	
+	public String getGameName() {
+		return gamecore.getGame().getName();
+	}
 
 }

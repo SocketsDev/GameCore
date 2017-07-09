@@ -11,11 +11,12 @@ public class Game {
 	String n = null;
     List<String> p = new ArrayList<String>();
     
-    public Game(String name) {
+    public Game(String name, State state) {
     	this.n = name;
+    	this.s = state;
     }
 
-    public List<String> getPlayers(){
+    public List<String> getPlayers() {
         return this.p;
     }
     

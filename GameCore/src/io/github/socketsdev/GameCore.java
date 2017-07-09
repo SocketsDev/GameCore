@@ -6,6 +6,7 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import io.github.socketsdev.managers.Game;
+import io.github.socketsdev.util.GameState.State;
 
 public class GameCore extends JavaPlugin {
 
@@ -16,11 +17,11 @@ public class GameCore extends JavaPlugin {
 	public void onEnable() {
 		gamecore = this;
 		
-		System.out.println("Minigame dependency enabled.");
+		System.out.println("GameCore - dependency enabled.");
 	}
 	
 	public void onDisable() {
-		System.out.println("Minigame dependency disabled.");
+		System.out.println("GameCore - dependency disabled.");
 	}
 	
     public static void registerEvents(org.bukkit.plugin.Plugin plugin, Listener... listener) {
@@ -33,8 +34,8 @@ public class GameCore extends JavaPlugin {
         return gamecore;
     }
     
-    public void createGame(String name) {
-    	game = new Game(name);
+    public void createGame(String name, State state) {
+    	game = new Game(name, state);
     }
     
     public Game getGame() {

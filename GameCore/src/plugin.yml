@@ -1,0 +1,7 @@
+name: GameCore
+author: Sockets
+version: 0.1
+main: io.github.socketsdev.GameCore
+description: Open-source GameCore
+prefix: GameCore
+website: https://socketsdev.github.io/GameCore/
