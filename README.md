@@ -16,6 +16,12 @@ What features does GameCore have?
 
 * Manage teams
 
+* Manage kits
+
+* Game states
+
+* Five gamestates (Lobby, starting, warmup, started, ending)
+
 * More
 
 Usage
@@ -29,10 +35,10 @@ Let´s call our example game SuperMinigame.
 
         GameCore game = new GameCore();
 
-2. Now you need to create the Game:
+2. Now you need to create the Game and set the game´s current state:
 
         public void onEnable() {
-            game.createGame("SuperMinigame");
+            game.createGame("SuperMinigame", State.LOBBY);
         }
 
 Basically what we did now was setup our basics for creating a game, now we get to the fun part called do it yourself :)
