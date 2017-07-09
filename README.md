@@ -50,8 +50,25 @@ Basically what we did now was setup our basics for creating a game, now we get t
   <dd>I currently do not supply old documentation in downloads.</dd>
 </dl>
 
-Examples
+GameCore versions
+-------------
+
+<table>
+  <tr>
+    <th>Version</th><th>Name</th>
+  </tr>
+  <tr>
+    <td>0.1.0</td><td>GameCore Alpha (Untested)</td>
+  </tr>
+  <tr>
+    <td>0.0.1</td><td>GameCore (Pre-development)</td>
+  </tr>
+</table>
+
+Tutorial
 ------------
+
+Tutorial on creating a simple game will be coming soon, here are a few examples instead.
 
 Managing your base game
 <pre>
@@ -82,21 +99,6 @@ Kit kitName = new Kit(String name)
 core.getKitManager()
 //Using this you will manage all your created teams. (Using: getKit, addPlayer, removePlayer, removeKit)
 </pre>
-
-GameCore versions
--------------
-
-<table>
-  <tr>
-    <th>Version</th><th>Name</th>
-  </tr>
-  <tr>
-    <td>0.1.0</td><td>GameCore Alpha (Untested)</td>
-  </tr>
-  <tr>
-    <td>0.0.1</td><td>GameCore (Pre-development)</td>
-  </tr>
-</table>
 
 End of documentation
 --------------------
