@@ -22,6 +22,8 @@ What features does GameCore have?
 
 * Five gamestates (Lobby, starting, warmup, started, ending)
 
+* File Management
+
 * More
 
 Usage
