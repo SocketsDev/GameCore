@@ -6,6 +6,9 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import io.github.socketsdev.managers.Game;
+import io.github.socketsdev.managers.GameManager;
+import io.github.socketsdev.managers.KitManager;
+import io.github.socketsdev.managers.TeamsManager;
 import io.github.socketsdev.util.GameState.State;
 
 public class GameCore extends JavaPlugin {
@@ -13,6 +16,10 @@ public class GameCore extends JavaPlugin {
 	private static Plugin gamecore;
 	
 	Game game;
+	
+	GameManager gm = new GameManager(this);
+	TeamsManager tm = new TeamsManager(this);
+	KitManager km = new KitManager(this);
 	
 	public void onEnable() {
 		gamecore = this;
@@ -32,6 +39,18 @@ public class GameCore extends JavaPlugin {
     
     public static Plugin getCore() {
         return gamecore;
+    }
+    
+    public GameManager getGameManager() {
+        return gm;
+    }
+    
+    public TeamsManager getTeamManager() {
+        return tm;
+    }
+    
+    public KitManager getKitManager() {
+        return km;
     }
     
     public void createGame(String name, State state) {

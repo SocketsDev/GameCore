@@ -1,5 +1,6 @@
 package io.github.socketsdev.managers;
 
+import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 
@@ -30,6 +31,14 @@ public class GameManager implements Listener {
 	
 	public String getGameName() {
 		return gamecore.getGame().getName();
+	}
+	
+	public Player getPlayer(String name) {
+		if(gamecore.getGame().p.contains(name)) {
+			Player p = Bukkit.getPlayer(name);
+			return p;
+		}
+		return null;
 	}
 
 }
