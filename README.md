@@ -86,8 +86,6 @@ core.getKitManager()
 GameCore versions
 -------------
 
-(these are placeholders)
-
 <table>
   <tr>
     <th>Version</th><th>Name</th>
