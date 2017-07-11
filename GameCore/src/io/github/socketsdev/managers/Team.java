@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.bukkit.ChatColor;
+import org.bukkit.Location;
 import org.bukkit.entity.Player;
 
 public class Team {
@@ -11,6 +12,7 @@ public class Team {
 	String n = null;
 	ChatColor c = null;
 	List<String> p = new ArrayList<String>();
+	Location l = null;
 	
 	public Team(String name, ChatColor teamColor) {
 		this.n = name;
@@ -42,6 +44,14 @@ public class Team {
 		this.n = null;
 		this.c = null;
 		this.p.removeAll(getPlayers());
+	}
+	
+	public void setHome(Location l) {
+		this.l = l;
+	}
+	
+	public Location getHome() {
+		return this.l;
 	}
 
 }

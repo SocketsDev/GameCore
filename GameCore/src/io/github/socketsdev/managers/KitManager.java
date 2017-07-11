@@ -29,6 +29,15 @@ public class KitManager implements Listener {
 		return null;
 	}
 	
+	public boolean hasKit(Player p) {
+        for(Kit kit : kits){
+            if(kit.getPlayers().contains(p.getName())){
+                return true;
+            }
+        }
+		return false;
+	}
+	
 	public void addPlayer(Player p, Kit k) {
 		k.addPlayer(p);
 	}

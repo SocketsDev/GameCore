@@ -41,6 +41,15 @@ public class TeamsManager implements Listener {
 		return null;
 	}
 	
+	public boolean hasTeam(Player p) {
+        for(Team team : teams){
+            if(team.getPlayers().contains(p.getName())){
+                return true;
+            }
+        }
+		return false;
+	}
+	
 	public void addPlayer(Player p, Team t) {
 		t.addPlayer(p);
 	}
