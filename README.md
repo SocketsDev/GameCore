@@ -3,6 +3,8 @@ GameCore Documentation
 
 *Visit the [homepage](http://socketsdev.github.io/).*
 
+*Get your version of GameCore: [downloads](https://socketsdev.github.io/gamecore/downloads.html).*
+
 GameCore is not a standalone! It is for developers to use.
 
 What features does GameCore have?
@@ -57,11 +59,14 @@ Basically what we did now was setup our basics for creating a game, now we get t
 GameCore versions
 -------------
 
+*Updated list: [downloads](https://socketsdev.github.io/gamecore/downloads.html).*
+
 <table>
   <tr>
     <th>Version</th><th>Name</th>
   </tr>
   <tr>
+    <td>0.1.0</td><td>GameCore alpha</td>
     <td>0.8.0</td><td>GameCore pre-alpha</td>
   </tr>
 </table>
