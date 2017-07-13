@@ -63,5 +63,10 @@ public class KitManager implements Listener {
 	public List<Kit> getKitList() {
 		return kits;
 	}
+	
+	public void giveKit(Player p) {
+		Kit k = getKit(p);
+		k.giveKitPlayer(p);
+	}
 
 }
