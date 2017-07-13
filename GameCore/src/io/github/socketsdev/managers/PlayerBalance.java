@@ -20,16 +20,16 @@ public class PlayerBalance {
 		this.bal = newBalance;
 	}
 	
-	public void addBalance(int ammount) {
-		this.bal = this.bal + ammount;
+	public void addBalance(int amount) {
+		this.bal = this.bal + amount;
 	}
 	
 	public void resetBalance() {
 		this.bal = 0;
 	}
 	
-	public void removeBalance(int ammount) {
-		this.bal = this.bal - ammount;
+	public void removeBalance(int amount) {
+		this.bal = this.bal - amount;
 	}
 	
 	public int getBalance() {

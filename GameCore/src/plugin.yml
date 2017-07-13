@@ -1,7 +1,7 @@
 name: GameCore
 author: Sockets
-version: 0.1.1
+version: 0.1.3
 main: io.github.socketsdev.GameCore
-description: GameCore pre-alpha release
+description: GameCore - Easily create minigames or other gamemodes!
 prefix: GameCore
 website: https://socketsdev.github.io/GameCore/
