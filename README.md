@@ -69,7 +69,7 @@ GameCore versions
     <td>0.1.0</td><td>GameCore alpha</td>
   </tr>
   <tr>
-    <td>0.8.0</td><td>GameCore pre-alpha</td>
+    <td>0.0.8</td><td>GameCore pre-alpha</td>
   </tr>
 </table>
 
