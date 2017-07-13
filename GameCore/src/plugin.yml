@@ -1,6 +1,6 @@
 name: GameCore
 author: Sockets
-version: 0.1.0
+version: 0.1.1
 main: io.github.socketsdev.GameCore
 description: GameCore pre-alpha release
 prefix: GameCore
