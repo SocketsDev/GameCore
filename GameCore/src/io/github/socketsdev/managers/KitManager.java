@@ -38,6 +38,10 @@ public class KitManager implements Listener {
 		return false;
 	}
 	
+	public void registerKit(Kit k) {
+		kits.add(k);
+	}
+	
 	public void addPlayer(Player p, Kit k) {
 		k.addPlayer(p);
 	}
@@ -54,6 +58,10 @@ public class KitManager implements Listener {
 	public void removeKit(Player p) {
 		Kit k = getKit(p);
 		k.removeKit();
+	}
+	
+	public List<Kit> getKitList() {
+		return kits;
 	}
 
 }

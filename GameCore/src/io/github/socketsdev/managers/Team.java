@@ -6,6 +6,7 @@ import java.util.List;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
 
 public class Team {
 	
@@ -13,6 +14,11 @@ public class Team {
 	ChatColor c = null;
 	List<String> p = new ArrayList<String>();
 	Location l = null;
+	ItemStack icon = null;
+	
+	public Team(String name) {
+		this.n = name;
+	}
 	
 	public Team(String name, ChatColor teamColor) {
 		this.n = name;
@@ -30,6 +36,10 @@ public class Team {
 	
 	public ChatColor getColor() {
 		return this.c;
+	}
+	
+	public void setColor(ChatColor c) {
+		this.c = c;
 	}
 	
 	public void addPlayer(Player p) {
@@ -52,6 +62,14 @@ public class Team {
 	
 	public Location getHome() {
 		return this.l;
+	}
+	
+	public void setIcon(ItemStack icon) {
+		this.icon = icon;
+	}
+	
+	public ItemStack getIcon() {
+		return this.icon;
 	}
 
 }

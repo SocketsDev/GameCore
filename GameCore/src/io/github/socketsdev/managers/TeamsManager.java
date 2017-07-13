@@ -50,6 +50,10 @@ public class TeamsManager implements Listener {
 		return false;
 	}
 	
+	public void registerTeam(Team t) {
+		teams.add(t);
+	}
+	
 	public void addPlayer(Player p, Team t) {
 		t.addPlayer(p);
 	}
@@ -71,6 +75,10 @@ public class TeamsManager implements Listener {
 	public void removeTeam(Player p) {
 		Team t = getTeam(p);
 		t.clearTeam();
+	}
+	
+	public List<Team> getTeamList() {
+		return teams;
 	}
 
 }

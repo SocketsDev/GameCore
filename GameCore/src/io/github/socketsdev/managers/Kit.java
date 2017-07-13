@@ -12,6 +12,7 @@ public class Kit {
 	String n = null;
 	List<String> p = new ArrayList<String>();
 	HashMap<ItemStack, Integer> i = new HashMap<ItemStack, Integer>();
+	ItemStack icon = null;
 	
 	public Kit(String name) {
 		this.n = name;
@@ -51,9 +52,17 @@ public class Kit {
 			if(this.i.get(i) == 102) { p.getInventory().setChestplate(i); } else 
 			if(this.i.get(i) == 103) { p.getInventory().setHelmet(i); } else
 			if(this.i.get(i) <= 35) { p.getInventory().setItem(this.i.get(i), i); } else {
-				System.out.println("error whilist applying kit " + getName() + " with slot " + this.i.get(i) + " with itemstack " + i);
+				System.out.println("error whilist applying kit " + getName() + " with slot " + this.i.get(i) + " with itemstack " + i + " for player " + p.getName());
 			}
 		}
+	}
+	
+	public void setIcon(ItemStack icon) {
+		this.icon = icon;
+	}
+	
+	public ItemStack getIcon() {
+		return this.icon;
 	}
 
 }
