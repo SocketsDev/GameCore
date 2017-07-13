@@ -22,6 +22,10 @@ What features does GameCore have?
 
 * Five gamestates (Lobby, starting, warmup, started, ending)
 
+* File Management
+
+* Countdowns
+
 * More
 
 Usage
@@ -58,10 +62,7 @@ GameCore versions
     <th>Version</th><th>Name</th>
   </tr>
   <tr>
-    <td>0.1.0</td><td>GameCore Alpha (Untested)</td>
-  </tr>
-  <tr>
-    <td>0.0.1</td><td>GameCore (Pre-development)</td>
+    <td>0.8.0</td><td>GameCore pre-alpha</td>
   </tr>
 </table>
 
