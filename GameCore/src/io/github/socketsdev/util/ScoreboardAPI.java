@@ -57,7 +57,12 @@ public class ScoreboardAPI {
         }
         return text;
     }
-
+    
+    public Team newTeam(String name) {
+    	Team t = scoreboard.registerNewTeam(name);
+    	return t;
+    }
+    
     private Map.Entry<Team, String> createTeam(String text) {
         String result = "";
         if (text.length() <= 16) {

@@ -5,6 +5,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import io.github.socketsdev.managers.BalanceManager;
 import io.github.socketsdev.managers.Game;
 import io.github.socketsdev.managers.GameManager;
 import io.github.socketsdev.managers.KitManager;
@@ -20,6 +21,7 @@ public class GameCore extends JavaPlugin {
 	GameManager gm = new GameManager(this);
 	TeamsManager tm = new TeamsManager(this);
 	KitManager km = new KitManager(this);
+	BalanceManager bm = new BalanceManager(this);
 	
 	public void onEnable() {
 		gamecore = this;
@@ -50,6 +52,10 @@ public class GameCore extends JavaPlugin {
     }
     
     public KitManager getKitManager() {
+        return km;
+    }
+    
+    public KitManager getBalanceManager() {
         return km;
     }
     

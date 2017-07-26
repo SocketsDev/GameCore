@@ -23,6 +23,7 @@ public class Countdown {
 	boolean esb = false;
 	Location l = null;
 	boolean lb = false;
+	boolean ak = false;
 	
 	public Countdown(int[] i, int t, GameCore p) {
 		this.t = t;
@@ -50,6 +51,8 @@ public class Countdown {
 					  for (Player p : Bukkit.getOnlinePlayers()) { ac.sendBar(p, end); }
 					  
 					  //TODO: End
+					  if(ak == true) { for (Player p : Bukkit.getOnlinePlayers()) { plugin.getKitManager().giveKit(p); } }
+					  if(ab == true) { for (Player p : Bukkit.getOnlinePlayers()) { ac.sendBar(p, end); } }
 					  if(esb == true) { plugin.getGame().setState(es); }
 					  if(lb == true) { for (Player p : Bukkit.getOnlinePlayers()) { 
 						  Team t = plugin.getTeamManager().getTeam(p); 
@@ -107,7 +110,7 @@ public class Countdown {
 	}
 	
 	public void applyKits(boolean ak) {
-		
+		this.ak = ak;
 	}
 	
 }
