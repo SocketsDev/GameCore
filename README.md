@@ -1,6 +1,8 @@
 GameCore Documentation
 ================================
 
+WARNING: This resource is old and may be outdated, buggy or broken. Use at your own risk.
+
 *Visit the [homepage](http://socketsdev.github.io/).*
 
 *Get your version of GameCore: [downloads](https://socketsdev.github.io/gamecore/downloads.html).*
@@ -64,6 +66,15 @@ GameCore versions
 <table>
   <tr>
     <th>Version</th><th>Name</th>
+  </tr>
+  <tr>
+    <td>0.1.3</td><td>GameCore alpha</td>
+  </tr>
+  <tr>
+    <td>0.1.2</td><td>GameCore alpha</td>
+  </tr>
+  <tr>
+    <td>0.1.1</td><td>GameCore alpha</td>
   </tr>
   <tr>
     <td>0.1.0</td><td>GameCore alpha</td>
