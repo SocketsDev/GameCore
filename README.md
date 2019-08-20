@@ -61,7 +61,7 @@ Basically what we did now was setup our basics for creating a game, now we get t
 GameCore versions
 -------------
 
-*Updated list: [downloads](https://socketsdev.github.io/gamecore/downloads.html).*
+*Download JAR-file from GitHub: [downloads page](https://socketsdev.github.io/gamecore/downloads.html).*
 
 <table>
   <tr>
